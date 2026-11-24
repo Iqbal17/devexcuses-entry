@@ -8,13 +8,13 @@ Entry for the [make.fun bounty](https://make.fun/bounty/u-motasimfuad-make-the-a
 
 ## The excuse
 
-> I removed one line of dead code. It was load-bearing.
+> I cut one line of dead code. It was load-bearing.
 
-51 characters, one line.
+49 characters, one line.
 
 ## How it runs
 
-`python3 main.py` (Python 3, stdlib only) writes the excuse to `$MAKEFUN_OUTPUT_DIR/entry.txt` (falling back to `/output/entry.txt`), prints it, then reads the file back and asserts it is byte-for-byte the intended line inside the 1–200 character gate. The full decision record — five candidates weighed, two genuine writing passes on the chosen excuse — is the docstring at the top of `main.py`.
+`python3 main.py` (Python 3, stdlib only) writes the excuse to `$MAKEFUN_OUTPUT_DIR/entry.txt` (falling back to `/output/entry.txt`), prints it, then reads the file back and asserts it is byte-for-byte the intended line inside the 1–200 character gate. The full decision record — five candidates weighed, two genuine writing passes on the chosen excuse, plus a revision pass that tightened the setup verb and corrected every character count — is the docstring at the top of `main.py`.
 
 ## Referral
 
